@@ -60,6 +60,7 @@ print("Scaler saved")
 # =========================
 
 split = int(0.8 * len(X_scaled))
+# 80% for training, 20% for testing
 
 X_train = X_scaled[:split]
 X_test = X_scaled[split:]

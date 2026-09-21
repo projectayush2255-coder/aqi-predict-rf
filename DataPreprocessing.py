@@ -20,6 +20,7 @@ print("Final Shape:", df.shape)
 
 # Preview
 print(df.head())
+print(df.tail())
 
 # Export
 df.to_csv("cleaned_dataset.csv", index=False)
